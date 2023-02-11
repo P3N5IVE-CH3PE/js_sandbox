@@ -30,11 +30,13 @@ val = fruit.sort();
 
 val = numbers.sort();
 
-//Use compare function to order numbers from least to greatest or greatest to least
+//Use compare function to order numbers from:
+//greatest to least;
 val = numbers.sort(function(x,y){
     return y-x;
 });
 
+//least to greatest.
 val = numbers.sort(function(x,y){
     return x - y;
 });
